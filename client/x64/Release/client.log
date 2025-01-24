@@ -1,0 +1,9 @@
+﻿  main.cpp
+  Generating code
+  42 of 155 functions (27.1%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    4 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  client.vcxproj -> D:\simple_hb\client\x64\Release\client.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

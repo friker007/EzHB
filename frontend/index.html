@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/dayjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/plugin/relativeTime.js"></script>
+</head>
+<body>
+    <!-- Card Container -->
+    <div class="card">
+        <h1>Device Dashboard</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Device ID</th>
+                    <th>Last Updated Time</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="deviceTableBody"></tbody>
+        </table>
+    </div>
+
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="info-modal" id="infoModal">
+        <h2>Client Information</h2>
+        <div id="clientInfo"></div>
+        <button onclick="closeModal()">Close</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

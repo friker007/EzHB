@@ -1,0 +1,5 @@
+D:\simple_hb\client\x64\Debug\client.vcxproj.CopyComplete
+D:\simple_hb\client\x64\Debug\client.exe
+D:\simple_hb\client\x64\Debug\jsoncpp.dll
+D:\simple_hb\client\x64\Debug\libcurl-d.dll
+D:\simple_hb\client\x64\Debug\zlibd1.dll
